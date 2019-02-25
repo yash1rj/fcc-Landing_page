@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="./styler.css">
+		<link rel="stylesheet" href="./css/styler.css">
 		<title>DevLearners</title>
 	</head>
 	<body>
@@ -24,7 +24,7 @@
 				<div class="row fixed-top">
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<nav class="navbar  navbar-dark bg-dark navbar-expand-lg" id="nav-bar">
-							<a class="navbar-brand" href="./index.html"><img id="header-img" src="./bicon.png" alt="DevLearners Logo">DevLearners</a>
+							<a class="navbar-brand" href="./index.html"><img id="header-img" src="./media/bicon.png" alt="DevLearners Logo">DevLearners</a>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
@@ -40,7 +40,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card">
-						<img src="pg-bg.jpg" alt="DevLearners Page banner" class="card-img">
+						<img src="./media/pg-bg.jpg" alt="DevLearners Page banner" class="card-img">
 						<div class="card-img-overlay">
 							<h3 class="card-title text-warning text-center">Join our team</h3>
 							<form action="https://www.freecodecamp.org/email-submit" method="GET" id="form" class="form">
@@ -62,13 +62,33 @@
 						<section id="features" class="features-section text-center jumbotron jumbotron-fluid">
 							<h2 class="display-4">Features</h2>
 							<br /><br />
-							<p class="lead">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-								laborum.
-							</p>
+							<div class="row mt-3">
+								<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-right">
+									<img class="img-fluid" src="./media/blueprint.svg" width="100px" height="100px">
+								</div>
+								<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-left align-self-center">
+									<h5>Creative Process</h5>
+									<p>DevLearners provide a creative learning process so that you can learn by building projects.</p>
+								</div>
+							</div>
+							<div class="row mt-3">
+								<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-right align-self-center">
+									<h5>Responsive Community</h5>
+									<p>Connect with the leading Web Developers on our forum. Ask questions, share snippets and provide solutions.</p>
+								</div>
+								<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-left">
+									<img class="img-fluid" src="./media/connection.svg" width="100px" height="100px">
+								</div>
+							</div>
+							<div class="row mt-3">
+								<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-right">
+									<img class="img-fluid" src="./media/certificate.svg" width="100px" height="100px">
+								</div>
+								<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-left align-self-center">
+									<h5>Certification</h5>
+									<p>Complete the course, make the alloted projects and get our valued certificate.</p>
+								</div>
+							</div>
 						</section>
 						<br /><br />
 						<section id="howitworks" class="howitworks-section text-center jumbotron jumbotron-fluid">
@@ -82,7 +102,7 @@
 								laborum.
 							</p>
 							<br /><br />
-							<div class="embed-responsive embed-responsive-16by9">
+							<div class="embed-responsive embed-responsive-21by9">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6rxWc-TNIJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</section>
