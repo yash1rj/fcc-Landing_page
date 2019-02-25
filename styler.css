@@ -1,0 +1,41 @@
+#navlinks a {
+    padding-right: 45px;
+	padding-left: 45px;
+    margin-right: 20px;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.navbar-brand > img { 
+	height:30px;
+	padding-right:0;
+	margin-right:0;
+	width:40px;
+}
+
+.navbar {
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size:20px;
+}
+
+.active {
+	border: 1px solid yellow !important;
+	color:yellow !important;
+	text-shadow: 0 0 3px #FF0000;
+}
+
+.nav-link:hover {
+	text-shadow: 0 0 3px #FF0000;
+}
+
+#email:focus {
+	background-color:black !important;
+	color:white !important;
+}
+
+#email:hover {
+	border: 1px solid #FF0000 !important;
+	box-shadow: 1px 0 3px #FF0000 !important;
+}
